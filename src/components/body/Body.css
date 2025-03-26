@@ -1,0 +1,92 @@
+body{
+    overflow: hidden;
+}
+.timer-container{
+    background-image: url(pexels-mikhail-nilov-7988218.jpg);
+    background-color: rgba(181, 27, 27, 0.364);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    color: rgb(193, 193, 193);
+    /* background: linear-gradient(to right, #ff7eb3, #ffbf69, #2ec4b6); */
+}
+.body-container{
+    background-color: rgba(0, 0, 0, 0.759);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.body-container h2{
+    font-size: 32px;
+    color:#b7b7b7;
+
+}
+.timer-display{
+    font-size: 24px;
+    font-weight: 600;
+}
+.timer-buttons{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+}
+.tBtns {
+    background-color: rgb(1, 85, 1);
+    padding: 10px;
+    border: none;
+    color:  rgb(218, 222, 225);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.tBtnb {
+    background-color: rgb(165, 4, 4);
+    padding: 10px;
+    border: none;
+    color: rgb(218, 222, 225);
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar{
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+
+}
+.nav-user-photo{
+    padding: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+.nav-elm1 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(127, 151, 224);
+    color: aliceblue;
+    font-weight: bold;
+  
+    padding-inline: 20px;
+    height: 70px;
+}
+.nav-elm1{
+    display: flex;
+}
+
+.nav-elm2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

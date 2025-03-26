@@ -1,0 +1,80 @@
+
+.signup-div{
+    /* background-image: url(pexels-goumbik-669623.jpg); */
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+
+    
+}
+.container{
+    display: flex;
+    width: 100vw;
+    overflow: hidden;
+    
+
+}
+.container-elm1{
+    width: 50%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.661);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.container-elm2{
+    width: 50%;
+    background-color: rgba(31, 72, 83, 0.644);
+    color: rgb(203, 203, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.signup-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(15, 14, 14, 0.591);
+    padding: 10px 30px;
+    border-radius: 5px;
+    align-items: center;
+
+    
+}
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+    font-weight: bold;
+}
+.btn{
+    padding: 10px;
+    border: none;
+    background-color: rgba(2, 28, 56, 0.79);
+    color: rgb(209, 200, 198);
+    font-weight: 1000;
+    border-radius: 10px;
+    
+}
+input{
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    min-height: 25px;
+    background-color: rgb(226, 226, 227);
+}

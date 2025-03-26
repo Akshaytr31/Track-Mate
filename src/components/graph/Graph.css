@@ -1,0 +1,52 @@
+.graphNav{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    border-bottom: 1px solid rgb(196, 190, 190);
+}
+.graphNav-elm1{
+    display: flex;
+    align-items: center;
+}
+
+.graphNav-elm1 span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(127, 151, 224);
+    color: aliceblue;
+    font-weight: bold;
+  
+    padding-inline: 20px;
+    height: 70px;
+}
+
+
+
+
+.graph-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .graph-container p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .nav-link {
+    cursor: pointer;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
